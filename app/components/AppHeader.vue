@@ -1,6 +1,6 @@
 <template>
   <header class="fixed top-0 flex justify-between left-0 right-0  py-8 px-44 z-50 bg-[var(--color-background-header)]" >
-    <nav class="grid grid-cols-3 items-center justify-between w-full">
+    <nav class="grid grid-cols-4 items-center justify-between w-full">
       <!-- Logo (gauche) -->
       <div class="w-full flex justify-start">
         <a href="/">
@@ -9,7 +9,7 @@
       </div>
 
       <!-- Liens (centre) -->
-      <ul class="flex justify-center gap-8 ">
+      <ul class="flex justify-start gap-8 col-span-2">
         <li v-for="link in links" :key="link.id">
           <a
             :href="`#${link.id}`"
