@@ -2,7 +2,7 @@
   <component
     :is="to ? 'a' : 'button'"
     :href="to"
-    class="inline-block  rounded-full px-10 py-2"
+    class="inline-block  rounded-full px-10 py-2 lg:text-sm xl:text-base"
     :class="variant === 'primary'
       ? 'btn-primary text-white overflow-hidden relative'
       : 'btn-ghost'"

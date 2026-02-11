@@ -1,14 +1,13 @@
 <template>
-  <header class="fixed top-0 flex justify-between left-0 right-0  py-8 px-44 z-50 bg-[var(--color-background-header)]" >
+  <header class="fixed top-0 flex justify-between left-0 right-0  py-8 xl:px-44 lg:px-16 z-50 bg-[var(--color-background-header)]" >
     <nav class="grid grid-cols-4 items-center justify-between w-full">
-      <!-- Logo (gauche) -->
       <div class="w-full flex justify-start">
         <a href="/">
           <img src="~/assets/logo-skillex.svg" alt="Skillex" class="h-10" />
         </a>
       </div>
 
-      <!-- Liens (centre) -->
+     
       <ul class="flex justify-start gap-8 col-span-2">
         <li v-for="link in links" :key="link.id">
           <a
@@ -22,7 +21,6 @@
         </li>
       </ul>
 
-      <!-- CTA (droite) -->
       <div class="flex items-center justify-end gap-8 w-full">
         <a href="" class="nav-link" data-text="Login">Login</a>
         <ButtonCta variant="primary" to="/free-trial">Free Trial</ButtonCta>
