@@ -1,5 +1,5 @@
 <template>
-  <header class="fixed top-0 flex justify-between left-0 right-0 py-8 xl:px-44 lg:px-16 z-50 bg-background-header">
+  <header class="fixed top-0 flex justify-between left-0 right-0 py-8 xl:px-44 px-16 z-50 bg-background-header">
     <nav class="grid grid-cols-4 items-center justify-between w-full">
       <div class="w-full flex justify-start">
         <a href="/">
