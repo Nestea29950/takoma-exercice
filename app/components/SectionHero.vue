@@ -13,11 +13,10 @@
           <input
             type="text"
             placeholder="Find your passion"
-            class="text-lg bg-white px-8 py-10 flex-1 outline-none placeholder-[var(--color-primary)]"
+            class="text-lg bg-white px-8 py-10 flex-1 outline-none placeholder-primary"
           />
           <button
-            class="btn-go text-4xl font-semibold px-10 py-10 text-[var(--color-primary)] cursor-pointer shrink-0 relative overflow-hidden"
-            style="background-color: var(--color-secondary);"
+            class="btn-go text-4xl font-semibold px-10 py-10 text-primary cursor-pointer shrink-0 relative overflow-hidden bg-secondary"
           >
             <span class="relative z-10">Go</span>
           </button>
@@ -109,7 +108,7 @@ const cards = [
   left: 0;
   width: 100%;
   height: 0;
-  background-color: var(--color-orange);
+  background-color: #feba88;
   transition: height 0.3s ease;
 }
 

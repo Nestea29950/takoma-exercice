@@ -19,22 +19,9 @@
   font-display: swap;
 }
 
-/* Variables CSS */
-:root {
-  --color-primary: #1e1e2f;
-  --color-secondary: #97c680;
-  --color-accent: #e94560;
-  --color-orange: #feba88;
-  --color-background: #f5f0eb;
-  --color-background-header: #ffffff;
-  --color-text: #1e1e2f;
-  --color-text-light: #6b7280;
-  --color-border: #e5e7eb;
-}
-
 /* Reset & base */
 body {
   font-family: 'Archia', sans-serif;
-  color: var(--color-text);
-  background: linear-gradient(to bottom, #ffffff, var(--color-background));
+  color: #1e1e2f;
+  background: linear-gradient(to bottom, #ffffff, #f5f0eb);
 }

@@ -21,8 +21,7 @@ defineProps<{
 
 <style scoped>
 .btn-primary {
-  background-color: var(--color-primary);
-  position: relative;
+  @apply bg-primary relative;
 }
 
 .btn-primary::before {
@@ -32,7 +31,7 @@ defineProps<{
   left: 0;
   width: 100%;
   height: 0;
-  background-color: var(--color-secondary);
+  background-color: #97c680;
   transition: height 0.3s ease;
 }
 
@@ -41,8 +40,8 @@ defineProps<{
 }
 
 .btn-ghost {
-  color: var(--color-text);
-  background-image: linear-gradient(var(--color-secondary), var(--color-secondary));
+  @apply text-text-dark;
+  background-image: linear-gradient(#97c680, #97c680);
   background-size: 100% 0%;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -50,8 +49,7 @@ defineProps<{
 }
 
 .btn-ghost:hover {
-  color: var(--color-primary);
-  font-weight: 500;
+  @apply text-primary font-medium;
   background-size: 100% 50%;
 }
 </style>

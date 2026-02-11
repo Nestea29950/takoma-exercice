@@ -38,7 +38,7 @@
           </div>
         </div>
         <h3 class="text-xl font-semibold mt-4 category-title">{{ cat.title }}</h3>
-        <p class="text-sm text-[var(--color-text-light)]">{{ cat.duration }}</p>
+        <p class="text-sm text-text-light">{{ cat.duration }}</p>
       </div>
     </div>
   </section>
@@ -86,7 +86,7 @@ const categories = [
 
 <style scoped>
 .filter-link {
-  color: var(--color-text-light);
+  color: #6b7280;
   position: relative;
   padding-bottom: 4px;
   border-bottom: 2px solid transparent;
@@ -104,9 +104,9 @@ const categories = [
 
 .filter-link:hover,
 .filter-link.active {
-  color: var(--color-primary);
+  color: #1e1e2f;
   font-weight: 600;
-  border-bottom-color: var(--color-primary);
+  border-bottom-color: #1e1e2f;
 }
 
 /* Category card hover */
@@ -115,7 +115,7 @@ const categories = [
 }
 
 .category-card:hover .category-title {
-  color: var(--color-secondary);
+  color: #97c680;
 }
 
 .category-title {
@@ -133,7 +133,7 @@ const categories = [
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--color-primary);
+  color: #1e1e2f;
   transform: translateY(-60px);
   opacity: 0;
   transition: all 0.3s ease;

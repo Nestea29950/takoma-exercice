@@ -1,5 +1,5 @@
 <template>
-  <header class="fixed top-0 flex justify-between left-0 right-0  py-8 xl:px-44 lg:px-16 z-50 bg-[var(--color-background-header)]" >
+  <header class="fixed top-0 flex justify-between left-0 right-0 py-8 xl:px-44 lg:px-16 z-50 bg-background-header">
     <nav class="grid grid-cols-4 items-center justify-between w-full">
       <div class="w-full flex justify-start">
         <a href="/">
@@ -64,7 +64,7 @@ onMounted(() => {
 .nav-link {
   font-size: 16px;
   line-height: 22px;
-  background-image: linear-gradient(var(--color-secondary), var(--color-secondary));
+  background-image: linear-gradient(theme('colors.secondary'), theme('colors.secondary'));
   background-size: 100% 0%;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -82,8 +82,7 @@ onMounted(() => {
 
 .nav-link:hover,
 .nav-link.active {
-  color: var(--color-primary);
-  font-weight: 500;
+  @apply text-primary font-medium;
   background-size: 100% 50%;
 }
 </style>

@@ -2,7 +2,7 @@
   <section id="avis" class="py-24">
     <!-- Titre -->
     <h2 class="text-4xl font-semibold text-center mb-16">
-      What our customer say<span class="text-[var(--color-secondary)]">.</span>
+      What our customer say<span class="text-secondary">.</span>
     </h2>
 
     <!-- Carousel -->
@@ -28,7 +28,7 @@
             />
             <div>
               <p class="font-semibold text-sm">{{ review.name }}</p>
-              <p class="text-sm text-[var(--color-secondary)]">{{ review.role }}</p>
+              <p class="text-sm text-secondary">{{ review.role }}</p>
             </div>
           </div>
         </div>
@@ -38,13 +38,13 @@
     <!-- Flèches -->
     <div class="flex justify-center gap-16 mt-10">
       <button
-        class="text-2xl text-[var(--color-text-light)] hover:text-[var(--color-primary)] transition-colors"
+        class="text-2xl text-text-light hover:text-primary transition-colors"
         @click="prev"
       >
         &larr;
       </button>
       <button
-        class="text-2xl text-[var(--color-text-light)] hover:text-[var(--color-primary)] transition-colors"
+        class="text-2xl text-text-light hover:text-primary transition-colors"
         @click="next"
       >
         &rarr;

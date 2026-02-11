@@ -21,15 +21,14 @@
       <!-- Join community -->
       <div>
         <h3 class="text-xl font-semibold mb-4">Join our community</h3>
-        <div class="flex overflow-hidden border border-[var(--color-border)] bg-white">
+        <div class="flex overflow-hidden border border-border bg-white">
           <input
             type="email"
             placeholder="Enter your email"
             class=" pl-6 font-regular pr-6 py-5 outline-none flex-1 bg-transparent text-black placeholder-black"
           />
           <button
-            class="px-4 py-5  font-semibold text-black"
-            style="background-color: var(--color-secondary);"
+            class="px-4 py-5 font-semibold text-black bg-secondary"
           >
             GO
           </button>
@@ -43,8 +42,8 @@
 .nav-link {
   font-size: 16px;
   line-height: 22px;
-  color: var(--color-text);
-  background-image: linear-gradient(var(--color-secondary), var(--color-secondary));
+  @apply text-text-dark;
+  background-image: linear-gradient(#97c680, #97c680);
   background-size: 100% 0%;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -61,8 +60,7 @@
 }
 
 .nav-link:hover {
-  color: var(--color-primary);
-  font-weight: 500;
+  @apply text-primary font-medium;
   background-size: 100% 50%;
 }
 </style>
