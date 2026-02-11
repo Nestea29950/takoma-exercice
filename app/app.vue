@@ -1,5 +1,5 @@
 <template>
-  <div style="padding: 38px 80px; overflow-x: clip;">
+  <div class="py-16 px-44" style=" overflow-x: clip;">
     <NuxtRouteAnnouncer />
     <NuxtLayout>
       <NuxtPage />

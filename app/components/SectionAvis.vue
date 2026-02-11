@@ -85,6 +85,30 @@ const reviews = [
     role: 'Designer',
     avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face',
   },
+  {
+    text: 'The course exceeded my expectations. The practical assignments helped me land my dream job within weeks',
+    name: 'James Chen',
+    role: 'Designer',
+    avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face',
+  },
+  {
+    text: 'The course exceeded my expectations. The practical assignments helped me land my dream job within weeks',
+    name: 'James Chen',
+    role: 'Designer',
+    avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face',
+  },
+  {
+    text: 'The course exceeded my expectations. The practical assignments helped me land my dream job within weeks',
+    name: 'James Chen',
+    role: 'Designer',
+    avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face',
+  },
+  {
+    text: 'The course exceeded my expectations. The practical assignments helped me land my dream job within weeks',
+    name: 'James Chen',
+    role: 'Designer',
+    avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face',
+  },
 ]
 
 const currentIndex = ref(0)

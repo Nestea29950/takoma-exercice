@@ -1,5 +1,5 @@
 <template>
-  <section id="hero" class="h-[calc(100vh-120px)] mt-20 flex flex-col">
+  <section id="hero" class="h-[calc(70vh)] mt-20 flex flex-col">
     <div class="grid grid-cols-3 items-end flex-1 min-h-0 ">
       <!-- Texte gauche -->
       <div class="flex flex-col justify-between h-full relative justify-around">
